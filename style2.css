@@ -150,13 +150,14 @@ footer img {
 
 .balance {
   position: absolute;
-  top: 8rem;
+  top: 0;
+  margin-top: 100px;
   border: 7px solid #01969e;
   border-radius: 20px;
-  height: 20vh;
+  height: auto;
   width: 80%;
   background-color: #01b3bc;
-  padding: 1.5rem 1rem;
+  padding: 1rem 1rem;
 }
 
 
@@ -356,6 +357,7 @@ footer img {
 
 
   .balance {
+    top:0%;
     height: auto;
     padding: 8px 5px;
   }
